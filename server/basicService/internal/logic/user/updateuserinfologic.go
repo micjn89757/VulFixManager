@@ -3,8 +3,8 @@ package user
 import (
 	"context"
 
-	"VulFixManager/server/basicService/internal/svc"
-	"VulFixManager/server/basicService/internal/types"
+	"github.com/micjn89757/VulFixMiner/server/basicService/internal/svc"
+	"github.com/micjn89757/VulFixMiner/server/basicService/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )
