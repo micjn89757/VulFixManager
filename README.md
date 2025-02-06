@@ -22,8 +22,16 @@ vue3
 - build : 改变了build工具 如 grunt换成了 npm
 - revert : 撤销上一次的 commit
 - chore : 构建过程或辅助工具的变动
+- docs : 文档修改
+- merge : 代码合并
+- sync : 同步主线或分支的Bug
 
 2. scope: 用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。
 
 3. subject: commit 的简短描述，不超过50个字符。
 
+例如:
+> feat(context): add 'comments' api
+> fix(controller): fix bug in 'comments' api
+> docs(readme): update readme.md
+> style(router): format router.js
